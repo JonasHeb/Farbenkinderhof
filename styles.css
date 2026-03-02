@@ -1,1 +1,18 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+
+:root {
+  --color-primary: #F6DB8A;
+  --color-secondary: #F6DB8A;
+}
+.hero {
+    height: 75vh !important;
+    background-image: url("assets/images/Wanderreiten.jpg");
+    background-size: cover;
+}
+.title {
+    color: var(--color-primary) !important;
+}
+.subtitle {
+    color: var(--color-primary) !important;
+}   
