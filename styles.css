@@ -1,12 +1,9 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+@import 'bulma.css';
+
+
 
 html {
     font-size: 1rem;
-}
-:root {
-  --color-primary: #F6DB8A;
-  --color-secondary: #F6DB8A;
-  --color-font: #202020;
 }
 .hero {
     position: relative;
@@ -17,30 +14,21 @@ html {
     background-position: top center;
 }
 .hero .title {
-  font-size: clamp(4rem, 9vw, 6rem);
-    color: var(--color-primary);
+    font-size: clamp(4rem, 9vw, 6rem);
     font-weight: 350;
 }
 .hero .subtitle {
-    color: var(--color-primary);
     font-size: clamp(0.4rem, 5vw, 2rem);
     font-weight: 300;
 }
 body {
-    background-color: var(--color-primary);
 }
 .navbar-item{
-    color: var(--color-primary);
     font-size: large;
+}
+.button :hover {
+    background-color: #f0f0f0;
+}
 
-}
-.navbar-item:hover {
-    color: #fff !important;
-    background-color: transparent;
-}
-.title {
-    color: var(--color-font);
-}
 .subtitle {
-    color: var(--color-font);
 }
